@@ -1,0 +1,41 @@
+{
+    "name": "damor4321/expenseslib",
+    "description": "Library for use with Apigility",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "apigility",
+        "framework",
+        "zf2"
+    ],
+    "homepage": "http://apigility.org/",
+    "support": {
+        "email": "damor4321@gmail.com",
+        "source": "https://github.com/damor4321/expenseslib",
+        "issues": "https://github.com/damor4321/expenseslib/issues"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        },
+        "zf": {
+            "module": "ExpensesLib"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "ramsey/uuid": "^2.8",
+        "zendframework/zend-config": "^2.6",
+        "zendframework/zend-db": "^2.8.2",
+        "zendframework/zend-paginator": "^2.7",
+        "zendframework/zend-hydrator": "^1.1 || ^2.0",
+        "zendframework/zend-stdlib": "^2.7.7 || ^3.0.1",
+        "zfcampus/zf-configuration": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExpensesLib\\": "src/"
+        }
+    }
+}
